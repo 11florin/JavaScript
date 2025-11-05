@@ -1,4 +1,4 @@
-🧠** JavaScript Bootcamp Practice**
+**🧠 JavaScript Bootcamp Practice
 
 This repository contains exercises, notes, and mini projects completed during my JavaScript Bootcamp.
 The goal is to strengthen my understanding of core JavaScript concepts and improve my problem-solving skills through hands-on practice.
