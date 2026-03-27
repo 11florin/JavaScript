@@ -1,3 +1,9 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -7,35 +13,54 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
-  background-color: #393E46;
+  background-color: #393e46;
 }
 
 h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
+  font-size: 4rem;
+  color: #4ecca3;
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
 }
 
 img {
   width: 80%;
 }
+.btn {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #4ecca3;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px whitesmoke;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: aqua;
+  color: rgb(58, 65, 62);
+}
+
+.btn:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
 
 footer {
-  margin-top: 5%;
-  color: #EEEEEE;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  color: #eeeeee;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+  font-family: "Indie Flower", cursive;
 }
